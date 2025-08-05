@@ -23,7 +23,7 @@ module.exports = {
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     OWNER_NAME: process.env.OWNER_NAME || "Mirage",
     BOT_NAME: process.env.BOT_NAME || "Abbas Alhassan",
-    RENDER_API_KEY: process.env.RENDER_API_KEY,
+    RENDER_API_KEY: process.env.RENDER_API_KEY || "rnd_kGcWMiN7bywYY3Y8RrVbTrU2fjep",
     ANTIDELETE: process.env.ANTIDELETE || "on",
     ANTIDELETE_INCHAT: process.env.ANTIDELETE_INCHAT || "off",
     ANTI_EDIT: process.env.ANTI_EDIT || "on",
@@ -37,7 +37,7 @@ module.exports = {
     VV_CMD: process.env.VV_CMD || "👀",
     RES_TYPE: process.env.RES_TYPE || "text",
     CMD_REACT: process.env.CMD_REACT || "on",
-    LOG_MESSAGES: process.env.LOG_MESSAGES || "off",
+    LOG_MESSAGES: process.env.LOG_MESSAGES || "on",
     STARTUP_MSG: process.env.STARTUP_MSG || "on",
     MENU_IMAGE: process.env.MENU_IMAGE || "",
     WELCOME_MESSAGE: process.env.WELCOME_MESSAGE ||  `╭━━━々 𝚆 𝙴 𝙻 𝙲 𝙾 𝙼 𝙴 々━━━╮
