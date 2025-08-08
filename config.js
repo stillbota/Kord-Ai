@@ -3,7 +3,7 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || 'kord_ai-HnDm109kmFhRqEHC',
+    SESSION_ID: process.env.SESSION_ID || 'kord_ai-HBb2sSdGkOOwdJZh',
     OWNER_NUMBER: process.env.OWNER_NUMBER || "2348104029966",
     WORKTYPE: process.env.WORKTYPE || "private",
     PREFIX: process.env.PREFIX || "[.]",
@@ -21,13 +21,13 @@ module.exports = {
     BOT_PRESENCE: process.env.BOT_PRESENCE || "available", // for online, "composing" for typing 
     REACT: process.env.REACT || false,
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
-    OWNER_NAME: process.env.OWNER_NAME || "CYBER",
+    OWNER_NAME: process.env.OWNER_NAME || "Abbas Cyber",
     BOT_NAME: process.env.BOT_NAME || "CYBER BOT",
     RENDER_API_KEY: process.env.RENDER_API_KEY || "rnd_kGcWMiN7bywYY3Y8RrVbTrU2fjep",
     ANTIDELETE: process.env.ANTIDELETE || "on",
-    ANTIDELETE_INCHAT: process.env.ANTIDELETE_INCHAT || "off",
+    ANTIDELETE_INCHAT: process.env.ANTIDELETE_INCHAT || "on",
     ANTI_EDIT: process.env.ANTI_EDIT || "on",
-    ANTI_EDIT_IN_CHAT: process.env.ANTI_EDIT_IN_CHAT || "off",
+    ANTI_EDIT_IN_CHAT: process.env.ANTI_EDIT_IN_CHAT || "on",
     AUDIO_DATA: process.env.AUDIO_DATA || "Kord;🤍",
     SUDO: process.env.SUDO || "2348104029966", // example: 23412345667,2341234567
     MODS: process.env.MODS || "2348104029966",
